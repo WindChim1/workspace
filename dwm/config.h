@@ -172,7 +172,7 @@ static Key keys[] = {
 /*    { MODKEY,              XK_F1,     spawn, SHCMD("~/scripts/set_vol.sh up") },  */                              /* super shift up   | 音量加                 */
     { MODKEY,              XK_F2,     spawn, SHCMD("~/scripts/set_vol.sh up") },                               /* super shift up   | 音量加                 */
     { MODKEY,              XK_F3,     spawn, SHCMD("~/scripts/set_vol.sh down") },                             /* super shift down | 音量减                 */
-    { MODKEY,              XK_minus,      spawn, SHCMD("flameshot gui  -p ~/Pictures/screenshots") },         /* super       -    | 截图                   */
+    { MODKEY,              XK_minus,      spawn, SHCMD("flameshot gui -c  -p ~/Pictures/screenshots") },         /* super       -    | 截图                   */
     { MODKEY|ShiftMask,    XK_k,      spawn, SHCMD("~/scripts/screenkey.sh") },                                 /* super shift k    | 打开键盘输入显示       */
     { MODKEY|ShiftMask,    XK_q,      spawn, SHCMD("kill -9 $(xprop | grep _NET_WM_PID | awk '{print $3}')") }, /* super shift q    | 选中某个窗口并强制kill */
     { ShiftMask|ControlMask, XK_c,    spawn, SHCMD("xclip -o | xclip -selection c") },                          /* super shift c    | 进阶复制               */
