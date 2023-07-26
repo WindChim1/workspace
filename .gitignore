@@ -39,12 +39,12 @@ dwm/result/
 /picom/build/
 /picom/compile_commands.json
 /picom/build.ninja
-/picom/
+#/picom/
 /picom/# language servers
 /picom/.ccls-cache
 /picom/.clangd
 /picom/.cache
-/picom/
+#/picom/
 /picom/# CMake files
 /picom/compton-*.deb
 /picom/compton-*.rpm
@@ -56,13 +56,13 @@ dwm/result/
 /picom/cmake_install.cmake
 /picom/CPackSourceConfig.cmake
 /picom/install_manifest.txt
-/picom/
-/picom/
+#/picom/
+#/picom/
 /picom/# Vim files
 /picom/.sw[a-z]
 /picom/.*.sw[a-z]
 /picom/*~
-/picom/
+#/picom/
 /picom/# Misc files
 /picom/core.*
 /picom/.gdb_history
